@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Speech to Web App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎤 Speech to Web App</h1>
+
+        <p class="subtitle">
+            Speak into your microphone and convert your speech into text.
+        </p>
+
+        <div class="card">
+
+            <button id="startBtn">
+                🎤 Start Speaking
+            </button>
+
+            <button id="stopBtn">
+                ⏹ Stop
+            </button>
+
+            <button id="clearBtn">
+                🗑 Clear
+            </button>
+
+            <p id="status">Click "Start Speaking" to begin.</p>
+
+            <textarea
+                id="textBox"
+                placeholder="Your speech will appear here..."
+                readonly>
+            </textarea>
+
+            <button id="speakBtn">
+                🔊 Read Text
+            </button>
+
+        </div>
+
+        <div class="info">
+            <h3>How to use</h3>
+
+            <ol>
+                <li>Click <b>Start Speaking</b>.</li>
+                <li>Allow microphone permission.</li>
+                <li>Speak clearly.</li>
+                <li>Your speech will appear as text.</li>
+                <li>Click <b>Read Text</b> to hear the text.</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
